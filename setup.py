@@ -524,7 +524,7 @@ def maybe_cythonize(extensions, *args, **kwargs):
 
     kwargs["nthreads"] = nthreads
     build_ext.render_templates(_pxifiles)
-    return cythonize(extensions, *args, **kwargs)
+    return cythonize(extensions, *args, **kwargs, language_level = "3")
 
 
 def srcpath(name=None, suffix=".pyx", subdir="src"):
