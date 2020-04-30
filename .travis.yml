@@ -42,9 +42,9 @@ matrix:
           secure: lIfxbslOqXRyXh76x/CSXhWU5Ct+f5A8YqPlwFo/OjjAId2FW1Fqal2gdBWKcdB5tTKGxdq3bxS1R5jHbBmnq5FzgL6qNq5XQZ9KOGyAUnxGMpqKAOlnu6+yEqmNwnauyAR8K2rX6OXttf0Es+Y3VnHAS767c1iyz4u8uVasgn9OoI7qdp4SWL0hMmej9h5OEfKc99UywHFM6xrIBWnXOi0wm7DmFosEGIsZSCn5C0eR4YQVuEaWqlJWNSsItPAC4i821iT5oRoT2xnIGHXnMGOYmik8NclAstge+/N9BzFFATJrg0cfUFjjPehMDFPGGOSyx9kxqtvWzT4kS/cqEeShhjtdy4Kd6jpToP7QTg8qP0SVjiACaCiVCzPZGVzOjM7u1AN26S/ibfD73SVl6OQNDm3cGFmNa8oZMA3jIxFkmUkdh0JIBzJP2hDt30+syvEV8MFW1xhjV9sIILR9OAGBwTd7p/eJBvI/4fABcJ9pNOnLoXlDIoQ78WVnpmrVt+Z3+T3HX60Mw7XTxku5Y9SOUS/cWEegeEtVLWP8jPqAAHFEzG4cma2rRgIi+EQTxEQf5UcP8Fzy1dSdLkeuy4+5RIZwk46B6/WGu7sA8vEgq+Xo7fNL0ljyMDSpR0H7LkAzTgXQ5Y3bONGwandurtVHwoFo4NMZyUu7wvwHhDs=
         on:
           tags: true
-          distributions: sdist bdist_wheel  --plat-name manylinux2014_aarch64
           repo: mpmkp2020/pandas
         skip_cleanup: 'true'
+        distributions: sdist bdist_wheel  --plat-name manylinux2014_aarch64
 
     - env:
         - JOB="3.7" ENV_FILE="ci/deps/travis-37.yaml" PATTERN="(not slow and not network and not clipboard)"
