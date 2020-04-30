@@ -179,7 +179,7 @@ of the analysis into a form suitable for plotting or tabular display. pandas is
 the ideal tool for all of these tasks.
 """
 
-DISTNAME = "pandas"
+DISTNAME = "pandas_mpmkp2020"
 LICENSE = "BSD"
 AUTHOR = "The PyData Development Team"
 EMAIL = "pydata@googlegroups.com"
