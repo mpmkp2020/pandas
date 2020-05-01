@@ -55,8 +55,8 @@ before_install:
       pip install cython;
       pip install numpy;
       pip install wheel;
-      #python setup.py bdist_wheel  --plat-name manylinux2014_aarch64;
     fi
+  # python setup.py bdist_wheel  --plat-name manylinux2014_aarch64;
   # set non-blocking IO on travis
   # https://github.com/travis-ci/travis-ci/issues/8920#issuecomment-352661024
   - python -c 'import os,sys,fcntl; flags = fcntl.fcntl(sys.stdout, fcntl.F_GETFL); fcntl.fcntl(sys.stdout, fcntl.F_SETFL, flags&~os.O_NONBLOCK);'
