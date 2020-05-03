@@ -125,7 +125,7 @@ I am expecting it to go away at some point in the future
 Please visit official pypi page: https://pypi.org/project/pandas/ to install pandas
 """
 
-DISTNAME = "pandas_mpmkp2020"
+DISTNAME = "pandas_mpmkp"
 LICENSE = "BSD"
 AUTHOR = "The PyData Development Team"
 EMAIL = "pydata@googlegroups.com"
