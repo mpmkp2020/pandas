@@ -118,11 +118,12 @@ class build_ext(_build_ext):
 DESCRIPTION = "Powerful data structures for data analysis, time series, and statistics"
 LONG_DESCRIPTION = """
 **pandas-mpmkp2020** is a test Python package
-I am working on a generatting aarch64 pandas wheel
-This project is where I am testing the things
-You must not use this project to grab pandas features
-I am expecting it to go away at some point in the future
-Please visit official pypi page: https://pypi.org/project/pandas/ to install pandas
+----------------------------------------------
+1)  I am working on a generatting aarch64 pandas wheel.
+2)  This project is where I am testing the things.
+3)  You must not use this project to grab pandas features.
+4)  I am expecting it to go away at some point in the future.
+5)  Please visit official pypi page: https://pypi.org/project/pandas/ to install pandas.
 """
 
 DISTNAME = "pandas_mpmkp"
