@@ -123,7 +123,9 @@ LONG_DESCRIPTION = """
 2)  This project is where I am testing the things.
 3)  You must not use this project to grab pandas features.
 4)  I am expecting it to go away at some point in the future.
-5)  Please visit official pypi page: https://pypi.org/project/pandas/ to install pandas.
+5)  Pip version>=19.3 supports multi-arch.
+6)  Please visit official pypi page: https://pypi.org/project/pandas/ to install pandas.
+
 """
 
 DISTNAME = "pandas_mpmkp"
